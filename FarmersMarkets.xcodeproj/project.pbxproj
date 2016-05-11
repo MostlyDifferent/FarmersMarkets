@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79711C441CE398E9001C4A6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C431CE398E9001C4A6C /* AppDelegate.swift */; };
+		79711C461CE398E9001C4A6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C451CE398E9001C4A6C /* ViewController.swift */; };
+		79711C491CE398EA001C4A6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79711C471CE398EA001C4A6C /* Main.storyboard */; };
+		79711C4B1CE398EA001C4A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79711C4A1CE398EA001C4A6C /* Assets.xcassets */; };
+		79711C4E1CE398EA001C4A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79711C4C1CE398EA001C4A6C /* LaunchScreen.storyboard */; };
+		79711C591CE398EA001C4A6C /* FarmersMarketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C581CE398EA001C4A6C /* FarmersMarketsTests.swift */; };
+		79711C641CE398EA001C4A6C /* FarmersMarketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C631CE398EA001C4A6C /* FarmersMarketsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79711C551CE398EA001C4A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79711C381CE398E9001C4A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79711C3F1CE398E9001C4A6C;
+			remoteInfo = FarmersMarkets;
+		};
+		79711C601CE398EA001C4A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79711C381CE398E9001C4A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79711C3F1CE398E9001C4A6C;
+			remoteInfo = FarmersMarkets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79711C401CE398E9001C4A6C /* FarmersMarkets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmersMarkets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79711C431CE398E9001C4A6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79711C451CE398E9001C4A6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79711C481CE398EA001C4A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79711C4A1CE398EA001C4A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79711C4D1CE398EA001C4A6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79711C4F1CE398EA001C4A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79711C541CE398EA001C4A6C /* FarmersMarketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmersMarketsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79711C581CE398EA001C4A6C /* FarmersMarketsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketsTests.swift; sourceTree = "<group>"; };
+		79711C5A1CE398EA001C4A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79711C5F1CE398EA001C4A6C /* FarmersMarketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmersMarketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79711C631CE398EA001C4A6C /* FarmersMarketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketsUITests.swift; sourceTree = "<group>"; };
+		79711C651CE398EA001C4A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79711C3D1CE398E9001C4A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79711C511CE398EA001C4A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79711C5C1CE398EA001C4A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79711C371CE398E9001C4A6C = {
+			isa = PBXGroup;
+			children = (
+				79711C421CE398E9001C4A6C /* FarmersMarkets */,
+				79711C571CE398EA001C4A6C /* FarmersMarketsTests */,
+				79711C621CE398EA001C4A6C /* FarmersMarketsUITests */,
+				79711C411CE398E9001C4A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79711C411CE398E9001C4A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79711C401CE398E9001C4A6C /* FarmersMarkets.app */,
+				79711C541CE398EA001C4A6C /* FarmersMarketsTests.xctest */,
+				79711C5F1CE398EA001C4A6C /* FarmersMarketsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79711C421CE398E9001C4A6C /* FarmersMarkets */ = {
+			isa = PBXGroup;
+			children = (
+				79711C431CE398E9001C4A6C /* AppDelegate.swift */,
+				79711C451CE398E9001C4A6C /* ViewController.swift */,
+				79711C471CE398EA001C4A6C /* Main.storyboard */,
+				79711C4A1CE398EA001C4A6C /* Assets.xcassets */,
+				79711C4C1CE398EA001C4A6C /* LaunchScreen.storyboard */,
+				79711C4F1CE398EA001C4A6C /* Info.plist */,
+			);
+			path = FarmersMarkets;
+			sourceTree = "<group>";
+		};
+		79711C571CE398EA001C4A6C /* FarmersMarketsTests */ = {
+			isa = PBXGroup;
+			children = (
+				79711C581CE398EA001C4A6C /* FarmersMarketsTests.swift */,
+				79711C5A1CE398EA001C4A6C /* Info.plist */,
+			);
+			path = FarmersMarketsTests;
+			sourceTree = "<group>";
+		};
+		79711C621CE398EA001C4A6C /* FarmersMarketsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79711C631CE398EA001C4A6C /* FarmersMarketsUITests.swift */,
+				79711C651CE398EA001C4A6C /* Info.plist */,
+			);
+			path = FarmersMarketsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79711C3F1CE398E9001C4A6C /* FarmersMarkets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79711C681CE398EA001C4A6C /* Build configuration list for PBXNativeTarget "FarmersMarkets" */;
+			buildPhases = (
+				79711C3C1CE398E9001C4A6C /* Sources */,
+				79711C3D1CE398E9001C4A6C /* Frameworks */,
+				79711C3E1CE398E9001C4A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmersMarkets;
+			productName = FarmersMarkets;
+			productReference = 79711C401CE398E9001C4A6C /* FarmersMarkets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79711C531CE398EA001C4A6C /* FarmersMarketsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79711C6B1CE398EA001C4A6C /* Build configuration list for PBXNativeTarget "FarmersMarketsTests" */;
+			buildPhases = (
+				79711C501CE398EA001C4A6C /* Sources */,
+				79711C511CE398EA001C4A6C /* Frameworks */,
+				79711C521CE398EA001C4A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79711C561CE398EA001C4A6C /* PBXTargetDependency */,
+			);
+			name = FarmersMarketsTests;
+			productName = FarmersMarketsTests;
+			productReference = 79711C541CE398EA001C4A6C /* FarmersMarketsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79711C5E1CE398EA001C4A6C /* FarmersMarketsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79711C6E1CE398EA001C4A6C /* Build configuration list for PBXNativeTarget "FarmersMarketsUITests" */;
+			buildPhases = (
+				79711C5B1CE398EA001C4A6C /* Sources */,
+				79711C5C1CE398EA001C4A6C /* Frameworks */,
+				79711C5D1CE398EA001C4A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79711C611CE398EA001C4A6C /* PBXTargetDependency */,
+			);
+			name = FarmersMarketsUITests;
+			productName = FarmersMarketsUITests;
+			productReference = 79711C5F1CE398EA001C4A6C /* FarmersMarketsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79711C381CE398E9001C4A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MostlyDiff;
+				TargetAttributes = {
+					79711C3F1CE398E9001C4A6C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					79711C531CE398EA001C4A6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 79711C3F1CE398E9001C4A6C;
+					};
+					79711C5E1CE398EA001C4A6C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 79711C3F1CE398E9001C4A6C;
+					};
+				};
+			};
+			buildConfigurationList = 79711C3B1CE398E9001C4A6C /* Build configuration list for PBXProject "FarmersMarkets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79711C371CE398E9001C4A6C;
+			productRefGroup = 79711C411CE398E9001C4A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79711C3F1CE398E9001C4A6C /* FarmersMarkets */,
+				79711C531CE398EA001C4A6C /* FarmersMarketsTests */,
+				79711C5E1CE398EA001C4A6C /* FarmersMarketsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79711C3E1CE398E9001C4A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79711C4E1CE398EA001C4A6C /* LaunchScreen.storyboard in Resources */,
+				79711C4B1CE398EA001C4A6C /* Assets.xcassets in Resources */,
+				79711C491CE398EA001C4A6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79711C521CE398EA001C4A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79711C5D1CE398EA001C4A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79711C3C1CE398E9001C4A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79711C461CE398E9001C4A6C /* ViewController.swift in Sources */,
+				79711C441CE398E9001C4A6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79711C501CE398EA001C4A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79711C591CE398EA001C4A6C /* FarmersMarketsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79711C5B1CE398EA001C4A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79711C641CE398EA001C4A6C /* FarmersMarketsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79711C561CE398EA001C4A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79711C3F1CE398E9001C4A6C /* FarmersMarkets */;
+			targetProxy = 79711C551CE398EA001C4A6C /* PBXContainerItemProxy */;
+		};
+		79711C611CE398EA001C4A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79711C3F1CE398E9001C4A6C /* FarmersMarkets */;
+			targetProxy = 79711C601CE398EA001C4A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79711C471CE398EA001C4A6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79711C481CE398EA001C4A6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79711C4C1CE398EA001C4A6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79711C4D1CE398EA001C4A6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79711C661CE398EA001C4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79711C671CE398EA001C4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79711C691CE398EA001C4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FarmersMarkets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostlydifferent.FarmersMarkets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79711C6A1CE398EA001C4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FarmersMarkets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostlydifferent.FarmersMarkets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79711C6C1CE398EA001C4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FarmersMarketsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostlydifferent.FarmersMarketsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmersMarkets.app/FarmersMarkets";
+			};
+			name = Debug;
+		};
+		79711C6D1CE398EA001C4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FarmersMarketsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostlydifferent.FarmersMarketsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmersMarkets.app/FarmersMarkets";
+			};
+			name = Release;
+		};
+		79711C6F1CE398EA001C4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FarmersMarketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostlydifferent.FarmersMarketsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FarmersMarkets;
+			};
+			name = Debug;
+		};
+		79711C701CE398EA001C4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FarmersMarketsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mostlydifferent.FarmersMarketsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FarmersMarkets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79711C3B1CE398E9001C4A6C /* Build configuration list for PBXProject "FarmersMarkets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79711C661CE398EA001C4A6C /* Debug */,
+				79711C671CE398EA001C4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79711C681CE398EA001C4A6C /* Build configuration list for PBXNativeTarget "FarmersMarkets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79711C691CE398EA001C4A6C /* Debug */,
+				79711C6A1CE398EA001C4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79711C6B1CE398EA001C4A6C /* Build configuration list for PBXNativeTarget "FarmersMarketsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79711C6C1CE398EA001C4A6C /* Debug */,
+				79711C6D1CE398EA001C4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79711C6E1CE398EA001C4A6C /* Build configuration list for PBXNativeTarget "FarmersMarketsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79711C6F1CE398EA001C4A6C /* Debug */,
+				79711C701CE398EA001C4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79711C381CE398E9001C4A6C /* Project object */;
+}
