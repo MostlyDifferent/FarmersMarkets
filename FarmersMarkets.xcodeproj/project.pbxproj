@@ -14,6 +14,9 @@
 		79711C4E1CE398EA001C4A6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79711C4C1CE398EA001C4A6C /* LaunchScreen.storyboard */; };
 		79711C591CE398EA001C4A6C /* FarmersMarketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C581CE398EA001C4A6C /* FarmersMarketsTests.swift */; };
 		79711C641CE398EA001C4A6C /* FarmersMarketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C631CE398EA001C4A6C /* FarmersMarketsUITests.swift */; };
+		79711C761CE39A0C001C4A6C /* FarmersMarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C751CE39A0C001C4A6C /* FarmersMarket.swift */; };
+		79711C7A1CE39A33001C4A6C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C791CE39A33001C4A6C /* APIManager.swift */; };
+		79711C7D1CE3A821001C4A6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79711C7C1CE3A821001C4A6C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		79711C5F1CE398EA001C4A6C /* FarmersMarketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmersMarketsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79711C631CE398EA001C4A6C /* FarmersMarketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersMarketsUITests.swift; sourceTree = "<group>"; };
 		79711C651CE398EA001C4A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79711C751CE39A0C001C4A6C /* FarmersMarket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FarmersMarket.swift; sourceTree = "<group>"; };
+		79711C791CE39A33001C4A6C /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		79711C7C1CE3A821001C4A6C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,11 @@
 		79711C421CE398E9001C4A6C /* FarmersMarkets */ = {
 			isa = PBXGroup;
 			children = (
-				79711C431CE398E9001C4A6C /* AppDelegate.swift */,
-				79711C451CE398E9001C4A6C /* ViewController.swift */,
-				79711C471CE398EA001C4A6C /* Main.storyboard */,
-				79711C4A1CE398EA001C4A6C /* Assets.xcassets */,
-				79711C4C1CE398EA001C4A6C /* LaunchScreen.storyboard */,
-				79711C4F1CE398EA001C4A6C /* Info.plist */,
+				79711C7B1CE3A7EE001C4A6C /* Utils */,
+				79711C741CE399E2001C4A6C /* Supporting Files */,
+				79711C731CE399B3001C4A6C /* Controller */,
+				79711C721CE399AE001C4A6C /* View */,
+				79711C711CE399A8001C4A6C /* Model */,
 			);
 			path = FarmersMarkets;
 			sourceTree = "<group>";
@@ -123,6 +128,50 @@
 				79711C651CE398EA001C4A6C /* Info.plist */,
 			);
 			path = FarmersMarketsUITests;
+			sourceTree = "<group>";
+		};
+		79711C711CE399A8001C4A6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79711C751CE39A0C001C4A6C /* FarmersMarket.swift */,
+				79711C791CE39A33001C4A6C /* APIManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		79711C721CE399AE001C4A6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79711C471CE398EA001C4A6C /* Main.storyboard */,
+				79711C4C1CE398EA001C4A6C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		79711C731CE399B3001C4A6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79711C451CE398E9001C4A6C /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		79711C741CE399E2001C4A6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79711C431CE398E9001C4A6C /* AppDelegate.swift */,
+				79711C4A1CE398EA001C4A6C /* Assets.xcassets */,
+				79711C4F1CE398EA001C4A6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79711C7B1CE3A7EE001C4A6C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				79711C7C1CE3A821001C4A6C /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79711C7D1CE3A821001C4A6C /* Constants.swift in Sources */,
+				79711C7A1CE39A33001C4A6C /* APIManager.swift in Sources */,
+				79711C761CE39A0C001C4A6C /* FarmersMarket.swift in Sources */,
 				79711C461CE398E9001C4A6C /* ViewController.swift in Sources */,
 				79711C441CE398E9001C4A6C /* AppDelegate.swift in Sources */,
 			);
